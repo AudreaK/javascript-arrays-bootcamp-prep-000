@@ -22,5 +22,21 @@ function destructivelyAddElementToEndOfArray() {
 }
 
 function accessElementInArray() {
-  return console.log(chocolateBars[#])
+  return console.log(chocolateBars[3]);
+}
+
+function destructivelyRemoveElementFromBeginningOfArray() {
+  return chocolateBars.shift()
+}
+
+function removeElementFromBeginningOfArray() {
+  return chocolateBars.slice(1)
+}
+
+function destructivelyRemoveElementFromEndOfArray() {
+  return chocolateBars.pop()
+}
+
+function removeElementFromEndOfArray() {
+  return chocolateBars.slice(0, chocolateBars.length - 1)
 }

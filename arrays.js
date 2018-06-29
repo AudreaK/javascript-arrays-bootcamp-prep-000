@@ -7,5 +7,20 @@ var ingrediant6 = "garlic";
 
 var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles" ];
 
-function destructivelyAddElementToBeginningOfArray [ 
-  return ]
+function destructivelyAddElementToBeginningOfArray() { 
+  return chocolateBars.unshift("twix");
+}
+function addElementToBeginningOfArray() {
+  return ["twix", ...chocolateBars];
+}
+
+function addElementToEndOfArray() {
+  return [...chocolateBars, "twix"];
+}
+function destructivelyAddElementToEndOfArray() {
+  return chocolateBars.push("twix");
+}
+
+function accessElementInArray() {
+  return console.log(chocolateBars[#])
+}
